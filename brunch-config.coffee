@@ -9,14 +9,9 @@ exports.config =
       joinTo: 'stylesheets/app.css'
 
     templates:
-      joinTo: 'javascripts/templates.js'
+      joinTo: 'javascripts/app.js'
 
   plugins:
-    jade:
-      pretty: yes
-
-    # static_jade:
-    #   extension: ".jade"
-    #   path:       [ /app/ ]
-    #   asset:      "public"     # specify the compilation output
-
+    jaded:
+      jade:
+        pretty: yes
